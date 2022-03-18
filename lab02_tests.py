@@ -39,6 +39,7 @@ class TestLab2(unittest.TestCase):
         meal.addFood(FoodServing(FoodItem('sticky toffee pudding', FoodCategory.OTHER, 348), 112))
         self.assertEqual(meal.calories(), 714)
 
+
         s = '''50g of tofu (FoodCategory.PROTEIN) 123cal/100g
 80g of broccoli (FoodCategory.VEGETABLE) 27cal/100g
 70g of noodles (FoodCategory.GRAIN) 348cal/100g
